@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Udemy Clone</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: white;
+}
+
+/* Header */
+.header {
+    background: #1c1c1c;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Container */
+.container {
+    padding: 15px;
+}
+
+/* Course Card */
+.card {
+    background: #1c1c1c;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+/* Thumbnail */
+.thumbnail {
+    width: 100%;
+    height: 150px;
+    background: url('https://img-c.udemycdn.com/course/480x270/1565838_e54e_16.jpg') no-repeat center;
+    background-size: cover;
+}
+
+/* Content */
+.card-content {
+    padding: 12px;
+}
+
+.course-title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.instructor {
+    font-size: 12px;
+    color: #aaa;
+}
+
+/* Progress */
+.progress {
+    margin-top: 10px;
+    background: #333;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 6px;
+    background: #a435f0;
+}
+
+.completed {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #4caf50;
+}
+
+/* Bottom Nav */
+.navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #1c1c1c;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.nav-item {
+    text-align: center;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.active {
+    color: #a435f0;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+    My learning
+</div>
+
+<div class="container">
+
+    <div class="card">
+        <div class="thumbnail"></div>
+
+        <div class="card-content">
+            <div class="course-title">
+                The Complete Digital Marketing Masterclass
+            </div>
+
+            <div class="instructor">
+                By John Smith
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar"></div>
+            </div>
+
+            <div class="completed">
+                ✔ Completed • 100%
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Bottom Navigation -->
+<div class="navbar">
+    <div class="nav-item">Home</div>
+    <div class="nav-item">Search</div>
+    <div class="nav-item active">My Learning</div>
+    <div class="nav-item">Wishlist</div>
+    <div class="nav-item">Account</div>
+</div>
+
+</body>
+</html>
